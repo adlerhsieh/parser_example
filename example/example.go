@@ -1,14 +1,14 @@
 package example
 
-import (
-	"fmt"
+import "fmt"
 
-	"/b"
-)
-
-// my comment
+// extra newline
 func Foo() {
-	fmt.Println("this is an example package")
 
-	b.Bar()
+	fmt.Println("Foo string")
+}
+
+// no extra newline
+func Bar() {
+	fmt.Println("Bar string")
 }
